@@ -1,0 +1,19 @@
+################ elements ####################
+
+campo_busca: //*[@id="input-auto-complete"]
+campo_busca_2: input-auto-complete
+item_busca: //div[@class="flex flex-col truncate"]//*[contains(text(),"Cidade")]
+campo_ordenar: //select[@id="sorting-selector"]
+opcao_ordenar: //select[@id="sorting-selector"]//option[@value="6"]
+confir_pessoas: //button[@data-testid="guest-selector-apply"]
+nome: (//h2[@class="text-heading-s ItemNameSection_nameWithFav__HXgUl"])[1]
+avaliação: (//*[@class="overflow-hidden"])[1]
+valor: (//button[@data-testid="more-deals"])[1]
+aba_info: //div[@role="tablist"]//*[contains(text(),"Info")]
+titulo_nome: //h2[@class="text-heading-m font-bold py-4 font-bold"]
+titulo_avaliação: //h2[@class="text-heading-m font-bold mb-6 leading-none"]
+titulo_valor: //h3[@class="text-heading-xs font-bold py-2 px-2"]
+text_nome: Sobre 
+text_avaliação: Avaliação
+text_valor: Ofertas irresistíveis
+texto_ordenar: //label[@class="text-m font-bold text-grey-900 mr-2 whitespace-nowrap"]

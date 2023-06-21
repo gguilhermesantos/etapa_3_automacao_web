@@ -1,0 +1,4 @@
+chrome: chrome=true -p progress -p json
+headless: headless -p progress -p json
+progress: --no-source --color --format pretty
+json: --format json --out=data/reports/report.json
